@@ -10,7 +10,7 @@ header {
   background-repeat: no-repeat;
   background-size: 100%;
   width: 100%;
-  height: 100vh;
+  height: 1086px;
 }
 
 .main_navigation ul {
@@ -42,7 +42,7 @@ header {
   margin-right: 276px;
 }
 
-.nav_list li button{
+.nav_list li button {
   margin-left: 169px;
   padding-right: 31px;
   padding-left: 31px;
@@ -60,10 +60,73 @@ header {
   background-color: #1B2534;
 }
 
-.nav_list li button:hover{
+.nav_list li button:hover {
+  color: #0082F3;
+  cursor: pointer;
+}
+
+.nav_list li a:hover {
   color: #0082F3;
 }
 
-.nav_list li a:hover{
-  color: #0082F3;
+.header_main {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.title {
+  padding-left: 165px;
+  margin-top: 170px;
+  margin-bottom: 38px;
+
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 104px;
+  color: #1B2534;
+}
+
+.title_2 {
+  padding-left: 185px;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 104px;
+  color: #1B2534;
+}
+
+.title_2 span {
+  color: #29A0F5;
+}
+
+.header_main button {
+  display: flex;
+  padding: 0;
+  margin: 0;
+
+  background: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  border-radius: 20px;
+  color: #1B2534;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20px;
+
+  cursor: pointer;
+
+  padding-left: 46px;
+  padding-right: 46px;
+  padding-top: 20px;
+  padding-bottom: 15px;
+
+  margin-left: 599px;
+  margin-bottom: 80px;
+}
+
+.header_main button:hover{
+  color: #29A0F5;
+}
+
+.button_arrow{
+  margin-left: 19px;
 }
