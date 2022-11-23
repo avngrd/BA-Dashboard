@@ -2,9 +2,11 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  background-image: url("../img/bg-home-page.jpg");
+  background-image: url("../img/trgbg.jpg");
   background-repeat: no-repeat;
   background-size: 100%;
+
+  font-family: $montserrat-medium;
 }
 
 header {
@@ -29,7 +31,7 @@ header {
 
 .nav_list li a {
   margin-left: 60px;
-  color: #1B2534;
+  color: #4484bc;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -73,7 +75,7 @@ header {
 }
 
 .title {
-  padding-left: 165px;
+  padding-left: 75px;
   margin-top: 170px;
   margin-bottom: 38px;
 
