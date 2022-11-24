@@ -39,6 +39,14 @@ const plugins = () => {
         collapseWhitespace: false
       }
     }),
+    new HTMLWebpackPlugin({
+      template: path.resolve(__dirname, 'src/second.html'),
+      filename: 'second.html',
+      minify: {
+        // collapseWhitespace: isProd
+        collapseWhitespace: false
+      }
+    }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
       filename: `./css/${filename('css')}`

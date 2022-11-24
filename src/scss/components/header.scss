@@ -55,7 +55,8 @@ header {
   font-size: 18px;
   line-height: 25px;
 
-  border: 1px solid #1B2534;
+  outline: hidden;
+
   border-radius: 17px;
   background-color: #1B2534;
 }
@@ -64,6 +65,13 @@ header {
   color: #0082F3;
   cursor: pointer;
 }
+
+.nav_list li button:active {
+  color: #FFFFFF;
+  background-color: #0082F3;
+  cursor: pointer;
+}
+
 
 .nav_list li a:hover {
   color: #0082F3;
