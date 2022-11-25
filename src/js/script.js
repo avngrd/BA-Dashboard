@@ -5,11 +5,9 @@ const popUp = document.querySelector('.popup');
 const popUpClose = document.querySelector('.popup_close');
 const loginButton = document.querySelector('.login_button');
 
-let openPopUp = (event) => {
-  event.preventDefault();
+let openPopUp = () => {
   popUp.classList.remove('visually-hidden');
 };
-
 loginButton.addEventListener('click', openPopUp);
 
 let closePopUp = ()=>{

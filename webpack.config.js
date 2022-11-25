@@ -86,7 +86,6 @@ const plugins = () => {
 
   return basePlugins;
 };
-
 module.exports = {
   context: path.resolve(__dirname, 'src'),
   mode: 'development',
