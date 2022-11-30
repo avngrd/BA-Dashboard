@@ -11,7 +11,6 @@ const login = document.querySelector('#login');
 const password = document.querySelector('#pass');
 const popUpAuthButton = document.querySelector('.popup_in');
 
-
 let isAuth = false;
 
 function authorisation(event) {
@@ -27,6 +26,8 @@ function authorisation(event) {
     alert('Введите пароль');
   }
 };
+
+popUpAuthButton.addEventListener('click', authorisation);
 
 function popUpsOpenHandler(event) {
   const targetButton = event.target.closest("li");
