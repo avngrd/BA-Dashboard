@@ -16,18 +16,45 @@ let isAuth = false;
 function authorisation(event) {
   event.preventDefault();
 
-  if (login.value != '' && password.value != '') {
-    popUp.classList.add('visually-hidden');
-    loginButton.textContent = login.value;
-    isAuth += true;
-  } else if (login.value === '') {
+  if (login.value === '') {
     alert('Введите логин');
   } else if (password.value === '') {
     alert('Введите пароль');
+  }else if(login.value.length > 20){
+    alert('Длина логина должна составлять от 8-20 символов');
+  }else{
+    popUp.classList.add('visually-hidden');
+    loginButton.textContent = login.value;
+    isAuth = true;
   }
 };
 
 popUpAuthButton.addEventListener('click', authorisation);
+
+// if (login.value != '' && password.value != '') {
+//   popUp.classList.add('visually-hidden');
+//   loginButton.textContent = login.value;
+//   isAuth += true;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function popUpsOpenHandler(event) {
   const targetButton = event.target.closest("li");
