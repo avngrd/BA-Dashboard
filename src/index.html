@@ -1,158 +1,207 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BA Dashboard</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BA Dashboard</title>
 </head>
+
 <body>
-    <div class="header__content">
-      <header>
-        <nav class="main_navigation">
-            <ul class="nav_list">
-              <li><img src="./img/logopng.png" class="logo" width="59" height="60"></li>
-              <li><a href="#">Главная</a></li>
-              <li><a href="./second.html">Приложение</a></li>
-              <li data-pop="course"><a href="#" class="courses popdata" >Курсы</a></li>
-              <li><a href="#">Другие страницы</a></li>
-              <li data-pop="auth"><button class="login_button popdata" >Войти</button></li>
-            </ul>
-        </nav>
-        <div class="header_main">
-          <p class="title">Вся ваша Бизнес-аналитика<br><span class="title_2">В одном <span>Приложении</span></span></p>
-          <button><span class="button_start">Начать</span><span class="button_arrow"><img src="./img/arrowbutton.svg"></span></button>
-          <img src="./img/spatz-app.jpg" class="spatz-app">
-        </div>
-      </header>
-    </div>
-    <section class="information__container">
-      <div class="information__description">
-        <p class="information__title">Совершенный подход к<br> <span class="information__soft">Программному обеспечению</span></p>
-        <p class="information__platform-description">Это программная платформа для социального сотрудничества,<br> с персонализированным интерфейсом, помогающим<br> продвигать ваш продукт и находить хороших покупателей.</p>
-        <ul class="information__list">
-          <li class="information__item diamond">
-            <p class="item-title">Улучшенный процесс отслеживания</p>
-            <p class="item-description">Функции работающие с другими платформами</p>
-          </li>
-          <li class="information__item lock">
-            <p class="item-title">Защищенная структура</p>
-            <p class="item-description">Целенаправленные структуры с улучшенной защитой данных</p>
-          </li>
+  <div class="header__content">
+    <header>
+      <nav class="main_navigation">
+        <ul class="nav_list">
+          <li><img src="./img/logopng.png" class="logo" width="59" height="60"></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="./second.html">Приложение</a></li>
+          <li data-pop="course"><a href="#" class="courses popdata">Курсы</a></li>
+          <li><a href="#">Информация о курсах</a></li>
+          <li data-pop="auth"><button class="login_button popdata">Войти</button></li>
+          <li data-pop="profile"><button class="profile-header visually-hidden">Профиль</button></li>
         </ul>
+      </nav>
+      <div class="header_main">
+        <p class="title">Вся ваша бизнес-аналитика<br><span class="title_2">В одном <span>приложении</span></span></p>
+        <button><span class="button_start">Начать</span><span class="button_arrow"><img
+              src="./img/arrowbutton.svg"></span></button>
+        <img src="./img/spatz-app.jpg" class="spatz-app">
       </div>
-      <div class="information__people">
-        <img src="./img/peoples.jpg" width="545" height="458">
-      </div>
-    </section>
-    <section class="feedback__container">
-      <div class="feedback__information">
-        <p class="feedback__title">Рекомендуемые отзывы</p>
-        <p class="feedback__message">Помогает нам выстраивать процессы и автоматизацию бизнеса,<br> без необходимости учиться писать код.<br> Моя команда теперь использует сервис "BA Dashboard",<br> чтобы быть более продуктивными.</p>
-        <p class="feedback__job">Системный аналитик</p>
-        <p class="feedback__raiting">(4.5 / 5 Рейтинг)</p>
-      </div>
-      <div class="feedback__photo">
-        <img src="./img/feedback.png">
-      </div>
-    </section>
-    <footer>
-      <div class="footer__wrapper">
-        <div class="footer__blocks">
-          <div class="footer__description">
-            <span class="footer__title">BA Dashboard</span>
-            <p>BA Dashboard это<br> креативная платформа для<br> организации вашего бизнеса.</p>
-            <ul class="footer__social-list">
-              <li><img src="./img/facebook.svg"></li>
-              <li><img src="./img/twitter.svg"></li>
-              <li><img src="./img/linked.svg"></li>
-              <li><img src="./img/instagram.svg"></li>
-            </ul>
-          </div>
-          <div class="footer__links">
-            <ul class="footer__links-list">
-              <li><span class="footer__links-title">О нас</span></li>
-              <li><a href="#">Курсы</a></li>
-              <li><p class="footer-main-page">Главная</p></li>
-              <li><a href="#">Новости</a></li>
-              <li><a href="#">Отзывы</a></li>
-              <li><a href="#">Приложение</a></li>
-              <li><a href="#">Веб-приложение</a></li>
-            </ul>
-            <ul class="footer__links-list">
-              <li><span class="footer__links-title">Инструменты</span></li>
-              <li><a href="https://www.figma.com/file/xTCm9pJUqion311c341a6N/Spaatz-%2B?node-id=1%3A2&t=fUk4dE18sUIfq30d-0">Макет</a></li>
-              <li><a href="#">Хостинг</a></li>
-              <li><a href="https://webpack.js.org/">Сборщик</a></li>
-              <li><a href="https://github.com/avngrd/BA-Dashboard">Изменения</a></li>
-              <li><a href="https://sass-lang.com/">Препроцессор</a></li>
-              <li><a href="https://code.visualstudio.com/">Среда разработки</a></li>
-            </ul>
-            <ul class="footer__links-list">
-              <li><span class="footer__links-title">Поддержка</span></li>
-              <li><a href="#"><span class="qiwi">Qiwi</span></a></li>
-              <li><a href="#">WebMoney</a></li>
-              <li><a href="#"><span class="umoney">UMoney</span></a></li>
-            </ul>
-          </div>
-          <div class="footer__video">
-            <iframe src="https://www.youtube.com/watch?v=xDNaqE2xEMM" width="330" height="330"></iframe>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <section>
-      <div class="secure__wrapper">
-        <ul class="secured__all-list">
-          <li><p>Все права защищены</p></li>
-          <li><p class="title-secure">@BA Dashboard</p></li>
-        </ul>
+    </header>
+  </div>
+  <section class="information__container">
+    <div class="information__description">
+      <p class="information__title">Совершенный подход к<br> <span class="information__soft">Программному
+          обеспечению</span></p>
+      <p class="information__platform-description">Это программная платформа для социального сотрудничества,<br> с
+        персонализированным интерфейсом, помогающим<br> продвигать ваш продукт и находить хороших покупателей.</p>
+      <ul class="information__list">
+        <li class="information__item diamond">
+          <p class="item-title">Улучшенный процесс отслеживания</p>
+          <p class="item-description">Функции работающие с другими платформами</p>
+        </li>
+        <li class="information__item lock">
+          <p class="item-title">Защищенная структура</p>
+          <p class="item-description">Целенаправленные структуры с улучшенной защитой данных</p>
+        </li>
+      </ul>
     </div>
-    </section>
-    <div class="popup visually-hidden">
-      <div class="popup_body">
-        <div class="popup_content">
-          <button class="popup_close">x</button>
-          <p class="popup_title">Авторизация</p>
-          <input type="text" placeholder="Логин" id="login">
-          <input type="password" placeholder="Пароль" id="pass">
-          <button class="popup_in">Войти</button>
-        </div>
-      </div>
+    <div class="information__people">
+      <img src="./img/peoples.jpg" width="545" height="458">
     </div>
-    <div class="course visually-hidden">
-      <div class="course_body">
-        <div class="course_content">
-          <button class="course_close">x</button>
-          <p class="course_title">Выберите уровень курса</p>
-          <div class="course-list">
-            <div class="course-card">
-              <img src="./img/junior.svg" width="200" height="200">
-              <ul class="course-stats">
-                <li><p class="course-name">Бизнес-аналитик Junior</p></li>
-                <li><p class="course-time">Длительность: 3 месяца</p></li>
-                <li><p class="course-price">0.30 ETH</p></li>
-              </ul>
-            </div>
-            <div class="course-card">
-              <img src="./img/middle.svg" width="200" height="200">
-              <ul class="course-stats">
-                <li><p class="course-name">Бизнес-аналитик Middle</p></li>
-                <li><p class="course-time">Длительность: 9 месяцев</p></li>
-                <li><p class="course-price">0.59 ETH</p></li>
-              </ul>
-            </div>
-            <div class="course-card">
-              <img src="./img/senior.svg" width="200" height="200">
-              <ul class="course-stats">
-                <li><p class="course-name">Бизнес-аналитик Senior</p></li>
-                <li><p class="course-time">Длительность: 1 год 6 мес.</p></li>
-                <li><p class="course-price">0.89 ETH</p></li>
-              </ul>
-            </div>
-          </div>
+  </section>
+  <section class="feedback__container">
+    <div class="feedback__information">
+      <p class="feedback__title">Рекомендуемые отзывы</p>
+      <p class="feedback__message">Помогает нам выстраивать процессы и автоматизацию бизнеса,<br> без необходимости
+        учиться писать код.<br> Моя команда теперь использует сервис "BA Dashboard",<br> чтобы быть более продуктивными.
+      </p>
+      <p class="feedback__job">Системный аналитик</p>
+      <p class="feedback__raiting">(4.5 / 5 Рейтинг)</p>
+    </div>
+    <div class="feedback__photo">
+      <img src="./img/feedback.png">
+    </div>
+  </section>
+  <footer>
+    <div class="footer__wrapper">
+      <div class="footer__blocks">
+        <div class="footer__description">
+          <span class="footer__title">BA Dashboard</span>
+          <p>BA Dashboard это<br> креативная платформа для<br> организации вашего бизнеса.</p>
+          <ul class="footer__social-list">
+            <li><img src="./img/facebook.svg"></li>
+            <li><img src="./img/twitter.svg"></li>
+            <li><img src="./img/linked.svg"></li>
+            <li><img src="./img/instagram.svg"></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <ul class="footer__links-list">
+            <li><span class="footer__links-title">О нас</span></li>
+            <li><a href="#">Курсы</a></li>
+            <li>
+              <p class="footer-main-page">Главная</p>
+            </li>
+            <li><a href="#">Новости</a></li>
+            <li>
+              <p class="footer-rec">Отзывы</p>
+            </li>
+            <li><a href="second.html">Приложение</a></li>
+            <li><a href="#">Веб-приложение</a></li>
+          </ul>
+          <ul class="footer__links-list">
+            <li><span class="footer__links-title">Инструменты</span></li>
+            <li><a
+                href="https://www.figma.com/file/xTCm9pJUqion311c341a6N/Spaatz-%2B?node-id=1%3A2&t=fUk4dE18sUIfq30d-0">Макет</a>
+            </li>
+            <li><a href="https://pages.github.com/">Хостинг</a></li>
+            <li><a href="https://webpack.js.org/">Сборщик</a></li>
+            <li><a href="https://github.com/avngrd/BA-Dashboard">Изменения</a></li>
+            <li><a href="https://sass-lang.com/">Препроцессор</a></li>
+            <li><a href="https://code.visualstudio.com/">Среда разработки</a></li>
+          </ul>
+          <ul class="footer__links-list">
+            <li><span class="footer__links-title">Оплата</span></li>
+            <li><a href="https://qiwi.com/payment/form/99"><span class="qiwi">Qiwi</span></a></li>
+            <li><a href="https://www.webmoney.ru/">WebMoney</a></li>
+            <li><a href="https://yoomoney.ru/transfer"><span class="umoney">UMoney</span></a></li>
+          </ul>
+        </div>
+        <div class="footer__video">
+          <iframe width="460" height="315" class="frame" src="https://www.youtube.com/embed/xDNaqE2xEMM"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
       </div>
     </div>
+  </footer>
+  <section>
+    <div class="secure__wrapper">
+      <ul class="secured__all-list">
+        <li>
+          <p>Все права защищены</p>
+        </li>
+        <li>
+          <p class="title-secure">@BA Dashboard</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <div class="popup visually-hidden">
+    <div class="popup_body">
+      <div class="popup_content">
+        <button class="popup_close">x</button>
+        <p class="popup_title">Авторизация</p>
+        <input type="text" placeholder="Логин" id="login">
+        <input type="password" placeholder="Пароль" id="pass">
+        <button class="popup_in">Войти</button>
+      </div>
+    </div>
+  </div>
+  <div class="course visually-hidden">
+    <div class="course_body">
+      <div class="course_content">
+        <button class="course_close">x</button>
+        <p class="course_title">Выберите уровень курса</p>
+        <div class="course-list">
+          <div class="course-card">
+            <img src="./img/junior.svg" width="200" height="200">
+            <ul class="course-stats">
+              <li>
+                <p class="course-name">Бизнес-аналитик Junior</p>
+              </li>
+              <li>
+                <p class="course-time">Длительность: 3 месяца</p>
+              </li>
+              <li>
+                <p class="course-price">0.30 ETH</p>
+              </li>
+            </ul>
+          </div>
+          <div class="course-card">
+            <img src="./img/middle.svg" width="200" height="200">
+            <ul class="course-stats">
+              <li>
+                <p class="course-name">Бизнес-аналитик Middle</p>
+              </li>
+              <li>
+                <p class="course-time">Длительность: 9 месяцев</p>
+              </li>
+              <li>
+                <p class="course-price">0.59 ETH</p>
+              </li>
+            </ul>
+          </div>
+          <div class="course-card">
+            <img src="./img/senior.svg" width="200" height="200">
+            <ul class="course-stats">
+              <li>
+                <p class="course-name">Бизнес-аналитик Senior</p>
+              </li>
+              <li>
+                <p class="course-time">Длительность: 1 год 6 мес.</p>
+              </li>
+              <li>
+                <p class="course-price">0.89 ETH</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="user-profile visually-hidden">
+    <div class="profile_body">
+      <div class="profile_content">
+        <button class="profile_close">x</button>
+        <p class="profile_login">f</p>
+        <button class="profile-out">Выйти</button>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
