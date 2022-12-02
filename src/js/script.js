@@ -90,3 +90,4 @@ let scrollToFeedbackBlock =() => {
 };
 
 footerRecButton.addEventListener('click', scrollToFeedbackBlock);
+

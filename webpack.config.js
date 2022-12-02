@@ -47,6 +47,22 @@ const plugins = () => {
         collapseWhitespace: false
       }
     }),
+  new HTMLWebpackPlugin({
+    template: path.resolve(__dirname, 'src/courses.html'),
+    filename: 'courses.html',
+    minify: {
+      // collapseWhitespace: isProd
+      collapseWhitespace: false
+    }
+  }),
+  new HTMLWebpackPlugin({
+    template: path.resolve(__dirname, 'src/news.html'),
+    filename: 'news.html',
+    minify: {
+      // collapseWhitespace: isProd
+      collapseWhitespace: false
+    }
+  }),
     new CleanWebpackPlugin(),
     new MiniCssExtractPlugin({
       filename: `./css/${filename('css')}`
