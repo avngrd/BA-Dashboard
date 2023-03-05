@@ -1,0 +1,104 @@
+.feedback__container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+
+  background-color: #354b5e;
+
+  padding-bottom: 140px;
+
+  font-family: $montserrat-medium;
+}
+
+.feedback__information{
+  margin-right: 70px;
+}
+
+.feedback__title{
+  margin-top: 0px;
+  margin-bottom: 40px;
+  padding-top: 139px;
+
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 91px;
+
+  position: relative;
+}
+
+.feedback__title::after {
+  content: '';
+  position: absolute;
+  width: 43px;
+  min-height: 39.6px;
+
+  left: 700px;
+  top: 165px;
+
+  background-image: url("../img/star.svg");
+}
+
+.feedback__message{
+  font-weight: 400;
+font-size: 25px;
+line-height: 46px;
+
+color:#ABABAB;
+
+margin-bottom: 64px;
+margin-top: 0px;
+}
+
+.feedback__job{
+  font-weight: 700;
+font-size: 25px;
+line-height: 49px;
+
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
+.feedback__raiting{
+  font-weight: 400;
+font-size: 14px;
+line-height: 29px;
+
+color:#ABABAB;
+
+margin-bottom: 0px;
+margin-top: 0px;
+
+position: relative;
+
+}
+
+.feedback__raiting::after {
+  content: '';
+  position: absolute;
+  width: 195px;
+  min-height: 39.6px;
+
+  left: -8px;
+  top: 45px;
+
+  background-image: url("../img/star.svg");
+}
+
+.feedback__raiting::before {
+  content: '';
+  position: absolute;
+  width: 37.5px;
+  min-height: 36px;
+
+  left: 169px;
+  top: 45px;
+
+  background-image: url("../img/starstroke.svg");
+}
+
+.feedback__photo{
+  padding-top: 179px;
+  min-height: 357px;
+  width: 431;
+}

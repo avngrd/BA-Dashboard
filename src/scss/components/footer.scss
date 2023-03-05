@@ -1,0 +1,178 @@
+.footer__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+
+  background-color: #1B2534;
+
+  padding-top: 153px;
+  padding-bottom: 100px;
+
+  font-family: $montserrat-medium;
+}
+
+.footer__blocks {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer__links {
+  display: flex;
+  list-style-type: none;
+  margin-left: 20px;
+}
+
+.footer__links ul {
+  list-style-type: none;
+}
+
+.footer__description {
+  margin-right: 40px;
+  margin-left: 30px;
+}
+
+.footer__social-list{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer__social-list li{
+  margin-right: 25px;
+  margin-top: 100px;
+}
+
+.footer__links {
+  background-color: #283343;
+  border-radius: 30px;
+}
+
+.footer__links ul {
+  padding: 0px 30px;
+}
+
+.footer__links-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  color: #FFFFFF;
+}
+
+.footer__links-list li {
+  margin-top: 19px;
+}
+
+.footer__links-list li a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+
+  letter-spacing: 0.36px;
+
+  color: #ABABAB;
+}
+
+.footer__links-list li a:hover{
+  color: #0082F3
+}
+
+.footer__title{
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 20px;
+  letter-spacing: 0.36px;
+  color: #FFFFFF;
+
+  border-radius: 15px;
+  padding: 10px 15px;
+}
+
+.footer__title:hover{
+  transform: scale(1.1);
+}
+
+.footer__description p{
+  font-weight: 400;
+font-size: 20px;
+line-height: 32px;
+
+letter-spacing: 0.2px;
+
+color: #ABABAB;
+}
+
+.footer__video{
+  margin-left: 90px;
+}
+
+.footer-main-page{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+
+  letter-spacing: 0.36px;
+
+  color: #ABABAB;
+}
+
+.footer-main-page:hover{
+  color: #0082F3;
+  cursor: pointer;
+}
+
+.footer-rec{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+
+  letter-spacing: 0.36px;
+
+  color: #ABABAB;
+}
+
+.footer-rec:hover{
+  color: #0082F3;
+  cursor: pointer;
+}
+
+.qiwi:hover{
+  color:orange;
+}
+
+.umoney:hover{
+  color:purple;
+}
+
+.secure__wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #1B2534;
+  border-top: 1px solid  #354b5e;
+}
+
+.secured__all-list{
+  list-style-type: none;
+  display: flex;
+  padding-left: 1000px;
+}
+
+.secured__all-list li{
+  padding-right: 40px;
+}
+
+.secured__all-list li p{
+  color:#ABABAB;
+}
+
+.secured__all-list li p:hover{
+  color:#FFFFFF;
+  cursor: pointer;
+}
+
+.frame{
+  margin-right: 30px;
+  margin-left: 10px;
+}

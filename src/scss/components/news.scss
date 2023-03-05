@@ -1,0 +1,123 @@
+.news-header-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #0082F3;
+
+  font-family: $montserrat-medium;
+}
+
+.news-header{
+  min-height: 86px;
+}
+
+.news-body{
+  background-image:url("../img/wave2.svg");
+  background-size: cover;
+}
+
+.news-nav-list{
+  list-style-type: none;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.news-nav-list li a{
+  margin: 0;
+  padding: 0;
+  margin-right: 200px;
+  font-family: $montserrat-bold;;
+  font-size: 35px;
+  color: #ffff;
+  background-color: #0082f3;
+  padding: 10px 8px;
+  border-radius: 20px;
+}
+
+.newstomain:hover .arrow{
+  color: #0022f9;
+  transform: rotate(-180deg) ;
+  transition: 0.5s;
+}
+
+.arrow{
+ transition: 0.5s ease;
+}
+
+.news-nav-list li p{
+  margin: 0;
+  padding: 0;
+  margin-left: 200px;
+  margin-right: 700px;
+
+  font-family: $montserrat-bold;
+  font-size: 45px;
+  position: relative;
+}
+
+.news-nav-list li p::before{
+  position: absolute;
+  content: "";
+  width: 60px;
+  height: 60px;
+
+  top:-5px;
+  left: -90px;
+
+  background-image: url("../img/logo2.png");
+}
+
+.news-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  color:black;
+  font-family: $montserrat-medium;
+  margin-top: 50px;
+}
+
+.news-cards{
+  display: flex;
+  list-style-type: none;
+}
+
+.news-card{
+  margin-right: 40px;
+  border-top: 3px solid #0082F3;
+  border-left: 3px solid #0082F3;
+  border-right: 3px solid #0082F3;
+  border-radius: 35px;
+}
+
+.news-title{
+  font-family: $montserrat-bold;
+  font-size: 25px;
+  color:  #1B2534;
+  margin-bottom: 18px;
+
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.news-text{
+  margin-top: 0px;
+  font-size: 15px;
+  color: #606060;
+
+  padding-top: 1px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.card-text-background{
+  margin-top: 10px;
+  border: 3px solid #ffff;
+  backdrop-filter: blur(20px);
+  border-radius: 20px;
+}

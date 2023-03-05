@@ -1,0 +1,150 @@
+.course{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(5, 97, 235, 0.5);
+  top:0;
+  left:0;
+  font-family: $montserrat-bold;
+  transition: .4s ease;
+}
+
+.course_body{
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+  flex-direction: column;
+}
+
+.course_content{
+  background-color: #fff;
+  color: #0082F3;
+  max-width: 1200px;
+  padding: 30px;
+  position: relative;
+  height: 530px;
+  width: 1450px;
+  border-radius:10px;
+}
+
+.course_close{
+  padding: 5px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 10px;
+  border: none;
+  color: #ffff;
+  background-color: #0082F3;
+  right: 10px;
+  top: 10px;
+
+  position: absolute;
+}
+
+.course_close:hover{
+  background-color: #0b5fa8;
+}
+
+.course_close:active{
+  background-color: #0082F3;
+}
+
+.course_title{
+  margin-left: 35px;
+  margin-top: 0px;
+  font-size: 30px;
+}
+
+.course_in{
+  position: relative;
+  top:10px;
+  left:80px;
+
+  border-radius: 25px;
+  border: none;
+
+  background-color: #0082F3;
+  color: #fff;
+  font-size: 20px;
+
+  padding: 15px 35px;
+}
+
+.course_in:hover{
+  background-color: #0b5fa8;
+  cursor: pointer;
+}
+
+.course-list{
+  display: flex;
+  list-style-type: none;
+}
+
+.course-card{
+  width: 300px;
+  margin-right: 50px;
+  margin-left: 70px;
+  border: 4px solid #0082F3;
+  border-radius: 20px;
+}
+
+.course-stats{
+  list-style-type: none;
+  padding: 0px;
+  padding-left: 15px;
+
+  border-top: 2px solid #0082F3;
+}
+
+.course-card img{
+  display: flex;
+  justify-content: center;
+  margin-right: 0px;
+  margin-left: 30px;
+}
+
+.course-name{
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.course-price{
+  color: rebeccapurple;
+  margin:0px;
+  position: relative;
+  font-size: 20px;
+}
+
+.course-time{
+  margin-top: 0px;
+  margin-bottom: 35px;
+}
+
+.course-price::after {
+  content: '';
+  position: absolute;
+  width: 48px;
+  min-height: 48px;
+
+  left: 180px;
+  top: -19px;
+
+  border-radius: 20px;
+  background-image: url("../img/eth.png");
+}
+
+.course-price::before {
+  content: '';
+  position: absolute;
+  width: 52px;
+  min-height: 54px;
+
+  left: 178px;
+  top: -22px;
+
+  background-color: rgb(85, 179, 255);
+  border-radius: 10px;
+}
+

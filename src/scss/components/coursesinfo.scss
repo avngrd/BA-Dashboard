@@ -1,0 +1,148 @@
+.courses-level-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #ffffff;
+	background-size: 400% 400%;
+	height: 100vh;
+  flex-direction: column;
+
+  font-family: $montserrat-bold;
+  padding-left: 150px;
+}
+
+.courses-header{
+  min-height: 456px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.courses-levels-list{
+  display: flex;
+  flex-direction: row;
+}
+
+.body-courses{
+  background-color: purple;
+}
+
+.courses-index{
+  color: #0082F3;
+  border: 1px solid #0082F3;
+  border-radius: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+  font-family: $montserrat-bold;
+  font-size: 19px;
+  height: 45px;
+  padding: 10px 5px;
+}
+
+.courses-index:hover{
+  color: #ffffff;
+  background-color: #0082F3;
+  transition: 0.5s;
+}
+
+.courses-header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #ffff;
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+
+  font-family: $montserrat-medium;
+}
+
+.courses-video{
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 70px;
+  margin-right: 40px;
+}
+
+.videoin-title{
+  color: #000000;
+  font-size: 45px;
+  margin-bottom: 15px;
+  font-family: $montserrat-bold;
+}
+
+.levels-title{
+  font-size: 65px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+  color: #0082F3;
+}
+
+.courses-levels-list{
+  list-style-type: none;
+}
+
+.courses-levels-list li{
+  padding: 20px 20px;
+}
+
+.course-level-card{
+border:2px solid #0082F3;
+margin-right: 170px;
+border-radius: 20px;
+
+background-color: #ffff;
+color: #0082F3;
+}
+
+.course-level-card img{
+  width: 196px;
+}
+
+.container-video{
+  display: flex;
+}
+
+.video-title{
+  color:#000000;
+  font-family: $montserrat-bold;
+  font-size: 45px;
+  margin-top: 110px;
+  margin-bottom: 20px;
+
+}
+
+.video-description-info{
+  color: #000000;
+  font-size: 20px;
+}
+
+.green-plus{
+  color:#00f300;
+  font-size: 20px;
+}
+
+.gray-inst{
+  color: #ababab;
+}
+
+.red-plus{
+  color:red;
+  font-size: 20px;
+}
+
+.level-big{
+  font-size: 20px;
+}

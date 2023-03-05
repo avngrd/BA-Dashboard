@@ -1,0 +1,64 @@
+.bg-wrapper {
+  background: linear-gradient(294.27deg, #30A8FF 0%, #C4F5C9 100%);
+
+}
+
+.app-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+
+  background: linear-gradient(294.27deg, #30A8FF 0%, #C4F5C9 100%);
+
+  font-family: $montserrat-medium;
+}
+
+.app-list {
+  list-style-type: none;
+  display: flex;
+  justify-items: center;
+}
+
+.app-list a{
+  font-size: 35px;
+}
+
+.grow {
+  font-size: 65px;
+  line-height: 84px;
+
+  box-shadow: 0 0 1rem 0 rgba(33, 31, 31, 0.2);
+  border-radius: 15px;
+  position: relative;
+  z-index: 1;
+  background: inherit;
+  overflow: hidden;
+  max-width: 620px;
+  margin-left: 80px;
+  padding-left: 20px;
+}
+
+.grow:before {
+  content: "";
+  position: absolute;
+  background: inherit;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(243, 237, 237, 0.5);
+  filter: blur(10px);
+}
+
+
+.back-to-main:hover .arrow{
+  transform: rotate(-180deg) ;
+  transition: 0.5s;
+}
+
+.arrow{
+ transition: 0.5s ease;
+}
+

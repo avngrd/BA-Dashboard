@@ -1,0 +1,121 @@
+.information__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+
+  margin-top: 160px;
+  margin-bottom: 160px;
+
+  color: black;
+
+  font-family: $montserrat-medium;
+}
+
+.information__description {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.information__title {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 68px;
+
+  color: #1B2534;
+
+  margin-bottom: 27px;
+}
+
+.information__soft {
+  color: #29A0F5;
+}
+
+.information__platform-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #1B2534;
+}
+
+.information__list {
+  list-style-type: none;
+  position: relative;
+}
+
+.information__item.diamond::before {
+  content: '';
+  width: 75px;
+  min-height: 75px;
+
+  position: absolute;
+  top: -10px;
+  left: -8px;
+
+  background-color: #FED8FF;
+  border-radius: 20px;
+}
+
+.information__item.diamond::after {
+  content: '';
+  position: absolute;
+  width: 45px;
+  min-height: 45px;
+
+  left: 8px;
+  top: 5px;
+
+  background-image: url("../img/diamond.svg");
+}
+
+.information__item.lock::before {
+  content: '';
+  width: 75px;
+  min-height: 75px;
+
+  position: absolute;
+  left: -8px;
+  top: 85px;
+
+  background-color: #C4F5C9;
+  border-radius: 20px;
+}
+
+.information__item.lock::after {
+  content: '';
+  position: absolute;
+  width: 34px;
+  min-height: 42px;
+
+  top: 100px;
+  left: 13px;
+
+  background-image: url("../img/lock.svg");
+}
+
+
+.information__list .item-title {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35px;
+  color: #1B2534;
+
+  margin-left: 40px;
+  margin-bottom: 0px;
+}
+
+.information__list .item-description {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+
+  color: #606060;
+
+  margin-top: 0px;
+  margin-left: 40px;
+}
+
+.information__people{
+  margin-top: 35px;
+}
